@@ -8,7 +8,7 @@ const Gallery = () => {
     <>
       {/* Gallery Section */}
       <section className="py-20 asphalt-grid fade-section">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto max-w-[70%]">
           <div className="flex items-center gap-2 justify-center mb-12">
             <ImageIcon className="w-8 h-8 text-asphalt-500" />
             <h2 className="text-4xl font-bold text-gray-800">Gallery</h2>

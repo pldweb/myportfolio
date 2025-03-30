@@ -5,7 +5,7 @@ const Socialmedia = () => {
   return (
     <>
     {/* Social Media Section */}
-    <section className="py-20 bg-gray-50 fade-section">
+    <section className="py-20 fade-section">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-4xl font-bold text-gray-800 mb-12">Connect With Me</h2>
           <div className="flex justify-center gap-8">

@@ -2,13 +2,15 @@ import React from 'react'
 
 import { Briefcase, ExternalLink } from 'lucide-react'
 import image1 from "../assets/website-1.png";
+import image2 from "../assets/website-2.png";
+
 
 const Portfolio = () => {
   return (
     <>
     {/* Portfolio Section */}
     <section className="py-20 fade-section">
-        <div className="container mx-auto px-4">
+        <div className="container mx-auto max-w-[70%]">
           <div className="flex items-center gap-2 justify-center mb-12">
             <Briefcase className="w-8 h-8 text-asphalt-500" />
             <h2 className="text-4xl font-bold text-gray-800">Portfolio</h2>
@@ -16,18 +18,18 @@ const Portfolio = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
               {
-                title: 'E-Commerce Platform',
+                title: 'MyCommerce | Ecommerce Platform',
                 description: 'A full-featured online shopping platform',
                 image: image1,
-                domain: 'shop.example.com',
-                link: 'https://shop.example.com'
+                domain: 'mycommerce.id',
+                link: 'https://pldweb.github.io/mc-landing'
               },
               {
-                title: 'Travel Blog',
-                description: 'Personal travel blog with dynamic content',
-                image: image1,
-                domain: 'travel.example.com',
-                link: 'https://travel.example.com'
+                title: 'Sehat Bahagia | Community Website',
+                description: 'Website komunitas psikologi Indonesia',
+                image: image2,
+                domain: 'sehatbahagia.id',
+                link: 'https://sehatbahagia.id'
               },
               {
                 title: 'Task Management App',

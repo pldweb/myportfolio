@@ -42,8 +42,8 @@ const Artikel = () => {
     }, []);
   return (
     <>
-    <section id="articles" className="py-12 bg-gray-100">
-      <div className="container mx-auto px-4">
+    <section id="articles" className="py-12">
+      <div className="container mx-auto max-w-[70%]">
         <h2 className="text-3xl title-section font-bold text-center mb-8 text-gray-800">
           Artikel Terbaru dari Medium
         </h2>
