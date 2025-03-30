@@ -2,11 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@font-face {
+  font-family: 'MaisonNeue-Medium';
+  src: url('../assets/font/MaisonNeue-Medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeue-Bold';
+  src: url('../assets/font/MaisonNeue-ExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'MaisonNeue-Light';
+  src: url('../assets/font/MaisonNeueExtended-Light.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
 @layer base {
   html {
     scroll-behavior: smooth;
   }
+
+  html, body {
+    font-family: 'MaisonNeue-Medium', sans-serif;
+  }
+
 }
+
 
 .fade-section {
   opacity: 0;
@@ -61,4 +89,9 @@
 .card-hover:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.title-section {
+  font-family: 'MaisonNeue-Bold', sans-serif;
+  font-weight: 800;
 }

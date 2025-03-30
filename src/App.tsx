@@ -45,7 +45,7 @@ function App(){
         <Portfolio />
         <Gallery />
         <Project />
-        <Experience />
+        {/* <Experience /> */}
         <Certificate />
         <Tools />
         <Artikel />

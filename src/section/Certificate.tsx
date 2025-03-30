@@ -11,7 +11,7 @@ const Certificate = () => {
         <div className="container mx-auto px-4">
           <div className="flex items-center gap-2 justify-center mb-12">
             <AlignCenterVertical className="w-8 h-8 text-asphalt-500" />
-            <h2 className="text-4xl font-bold text-gray-800">Certificates</h2>
+            <h2 className="text-4xl title-section font-bold text-gray-800">Certificates</h2>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[

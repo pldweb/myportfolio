@@ -44,7 +44,7 @@ const Artikel = () => {
     <>
     <section id="articles" className="py-12 bg-gray-100">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
+        <h2 className="text-3xl title-section font-bold text-center mb-8 text-gray-800">
           Artikel Terbaru dari Medium
         </h2>
         <div className="grid md:grid-cols-3 sm:grid-cols-2 gap-6">
@@ -72,7 +72,7 @@ const Artikel = () => {
                   href={article.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="mt-4 inline-block text-blue-600 hover:text-blue-800 font-semibold transition"
+                  className="mt-4 inline-block text-asphalt-500 hover:text-asphalt-700 font-semibold transition"
                 >
                   Baca Selengkapnya →
                 </a>
